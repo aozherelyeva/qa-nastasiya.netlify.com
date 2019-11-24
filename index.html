@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Page Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">Привет,<br>Я Настя!</h1>
+  </header>
+  <article class="article article_whitebg article_first">
+    <h2 class="black">Эта веб-страница нужна, чтобы показать,<br>что я понимаю основы<br>HTML+CSS :)</h2>
+    <p class="black">Я пишу и понимаю <strong>HTML</strong>, умею подключать и читать<br>стилевой файл, чтобы всё было красивым :)<br>А ещё я неплохо умею искать <strong>CSS</strong>-селекторы:<br>как для стилей, так и для работы с автотестами.</p>
+  </article>
+  <article class="article article_bluebg article_second">
+    <h2 class="white">Напишите мне!</h2>
+    <p class="white">Скорее всего, Вы сюда попали, потому что я оставила ссылку на эту страницу в моем CV.<br>Если Вам понравилось и/или Вы хотите задать мне дополнительные вопросы, пожалуйста, напишите!</p>
+    <form class="form" method="post" name="myemailform" action="form-to-email.php">
+      <input type="email" name = "email" class="form_input" placeholder="E-mail" required>
+      <input type="text" name = "your_name" class="form_input" placeholder="Имя" required>
+      <textarea class="form_textarea" name = "Message" placeholder="Ваше сообщение" required></textarea>
+        <button class="form_button" type="button" type="submit" value="Send Form">Отправить</button>
+    </form>
+  </article>
+</body>
+</html>
